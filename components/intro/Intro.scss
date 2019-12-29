@@ -1,0 +1,33 @@
+@import "../../variables.scss";
+
+.Container {
+  color: $txt-color;
+  display: flex;
+  justify-content: space-between;
+}
+.Info {
+  max-width: 565px;
+}
+.Title {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.Text {
+  font-size: 20px;
+  line-height: 30px;
+  &_colored {
+    color: $secondary-color;
+  }
+  &_small {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.Video {
+  display: flex;
+  &__Text {
+    border-bottom: 2px solid #f8f8f8;
+  }
+}

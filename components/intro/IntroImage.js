@@ -1,39 +1,43 @@
 import React from "react";
 
+import css from "./IntroImage.scss";
+
 export class IntroImage extends React.Component {
   state = {
     lamp: "golden"
   };
   render() {
     return (
-      <div className="Container">
-        <div className="ChooseBlock">
-          <p className="Text">Выберите цвет светильника</p>
-          <div className="Points">
+      <div className={css.Container}>
+        <div className={css.ChooseBlock}>
+          <p className={css.Text}>Выберите цвет светильника</p>
+          <div className={css.Points}>
             <div
-              className="Point Gold"
+              className={css.Point + " " + css.Point_golden}
               onClick={() => this.setState({ lamp: "golden" })}
             />
             <div
-              className="Point White"
+              className={css.Point + " " + css.Point_white}
               onClick={() => this.setState({ lamp: "white" })}
             />
             <div
-              className="Point Black"
+              className={css.Point + " " + css.Point_black}
               onClick={() => this.setState({ lamp: "black" })}
             />
             <div
-              className="Point Grey"
+              className={css.Point + " " + css.Point_grey}
               onClick={() => this.setState({ lamp: "grey" })}
             />
           </div>
         </div>
-        <img className="ManImage" src="#" alt="man" />
-        <img
-          className="LampImage"
-          src={`/colored_lamps/${this.state.lamp}.png`}
-          alt="lamp"
-        />
+        <img className={css.ManImage} src="/1_block/man.png" alt="man" />
+        <div className={css.Lamp}>
+          <img
+            className={css.LampImage}
+            src={`/1_block/colored_lamps/${this.state.lamp}.png`}
+            alt="lamp"
+          />
+        </div>
       </div>
     );
   }
