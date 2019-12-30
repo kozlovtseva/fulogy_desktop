@@ -1,0 +1,64 @@
+@import "../../variables.scss";
+
+.Container {
+    background-image: url("/2_block/back.jpg");
+    background-size: cover;
+    display: flex;
+    margin-top: 70px;
+}
+.LeftSide {
+    border-right: 2px solid #5d4eb2;
+    padding: 53px 57px 47px 142px;
+    width: 470px;
+}
+.Title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 48px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.Text {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    &_colored {
+        color: $primary-color;
+    }
+    &_small {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+}
+.Subtitle {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 49px 0 60px 0;
+    text-transform: uppercase;
+}
+.Tel {
+    color: $primary-color;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+.Icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+    width: 95px;
+}
+.Icon {
+    cursor: pointer;
+}
+.pricePoints {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 67px 0 66px 79px;
+}

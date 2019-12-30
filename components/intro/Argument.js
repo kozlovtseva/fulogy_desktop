@@ -13,7 +13,7 @@ const Argument = ({ item }) => (
           <div className={css.Cross} />
         </div>
       ) : (
-        <img src={`/icons/${item.icon}.svg`} alt={item.icon} />
+        <img src={`/icons/${item.icon}.svg`} alt={item.icon} /> //для всех остальных
       )}
     </div>
     <div className={css.Text}>{item.text}</div>
