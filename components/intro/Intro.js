@@ -24,7 +24,6 @@ const Intro = () => {
           </div>
           <PlayButton />
         </div>
-
         <Button title="Онлайн конструктор" />
       </div>
       <IntroImage />

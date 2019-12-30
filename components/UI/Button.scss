@@ -1,0 +1,24 @@
+@import "../../variables.scss";
+
+.Button {
+  background-color: $primary-color;
+  border-radius: 3px;
+  color: $txt-color;
+  font-weight: bold;
+  font-size: 16px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 257px;
+  &:hover {
+    background-color: $primary-color-light;
+    cursor: pointer;
+  }
+  &:active {
+    background-color: $primary-color;
+  }
+  &:focus {
+    outline: none;
+  }
+}

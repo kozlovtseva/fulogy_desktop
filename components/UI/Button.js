@@ -1,6 +1,10 @@
+import css from "./Button.scss";
+
 const Button = ({ onClick, title }) => (
   <>
-    <button onClick={onClick}>{title}</button>
+    <button className={css.Button} onClick={onClick}>
+      {title}
+    </button>
   </>
 );
 
