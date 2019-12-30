@@ -1,72 +1,72 @@
 .Container {
-  background-image: url("/1_block/ellips.png");
-  background-repeat: no-repeat;
-  position: relative;
-  width: 750px;
-  height: 533px;
+    background-image: url("/1_block/ellips.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 750px;
+    height: 533px;
 }
 .ChooseBlock {
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
-  margin-top: 30px;
-  width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 250px;
 }
 .Text {
-  align-self: flex-end;
-  color: #7c7c7c;
-  font-size: 14px;
-  font-weight: 500;
-  justify-self: flex-end;
-  line-height: 16px;
-  margin-bottom: 10px;
-  text-align: center;
-  width: 129px;
+    align-self: flex-end;
+    color: #7c7c7c;
+    font-size: 14px;
+    font-weight: 500;
+    justify-self: flex-end;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 129px;
 }
 .Points {
-  align-items: center;
-  background-color: #fff;
-  border-radius: 30px;
-  display: flex;
-  height: 40px;
-  justify-content: flex-end;
-  padding-right: 24px;
-  z-index: 2;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    height: 40px;
+    justify-content: flex-end;
+    padding-right: 24px;
+    z-index: 2;
 }
 .Point {
-  border-radius: 11px;
-  box-sizing: border-box;
-  cursor: pointer;
-  height: 11px;
-  margin-left: 18px;
-  width: 11px;
-  &_golden {
-    background-color: #d9c79c;
-  }
-  &_white {
-    border: 1px solid #e3e3e3;
-  }
-  &_black {
-    background-color: #595959;
-  }
-  &_grey {
-    background-color: #c9c9c9;
-  }
+    border-radius: 11px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 11px;
+    margin-left: 18px;
+    width: 11px;
+    &_golden {
+        background-color: #d9c79c;
+    }
+    &_white {
+        border: 1px solid #e3e3e3;
+    }
+    &_black {
+        background-color: #595959;
+    }
+    &_grey {
+        background-color: #c9c9c9;
+    }
 }
 .ManImage {
-  position: absolute;
-  bottom: 5px;
-  left: 70px;
+    position: absolute;
+    bottom: 5px;
+    left: 70px;
 }
 .Lamp {
-  position: absolute;
-  right: 0px;
-  width: 400px;
-  height: 650px;
-  overflow: hidden;
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    height: 650px;
+    overflow: hidden;
 }
 .LampImage {
-  height: 858.7px;
-  width: 1550px;
-  margin: -176px 0 0 -180px;
+    height: 858.7px;
+    width: 1550px;
+    margin: -176px 0 0 -180px;
 }
