@@ -35,6 +35,7 @@
 }
 .Point {
   border-radius: 11px;
+  box-sizing: border-box;
   cursor: pointer;
   height: 11px;
   margin-left: 18px;
@@ -59,12 +60,13 @@
 }
 .Lamp {
   position: absolute;
-  top: -78px;
-  right: -65px;
-  width: 750px;
-  height: 533px;
+  right: 0px;
+  width: 400px;
+  height: 650px;
+  overflow: hidden;
 }
 .LampImage {
   height: 858.7px;
   width: 1550px;
+  margin: -176px 0 0 -180px;
 }
