@@ -1,1 +1,1 @@
-# fulogy_desktop
+# Тестовое задание для компании  Fulogy на  NextJS
